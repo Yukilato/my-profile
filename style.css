@@ -1,0 +1,131 @@
+
+/* Colors and fonts */
+
+body {
+    background: #F5EBE0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+}
+
+
+h1, h2, h3 {
+    font-family: 'Gloock', serif;
+}
+
+
+
+h1 .presentation{
+    color: #575F7D;
+    font-size: 32px;
+
+
+}
+
+
+h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+
+a {
+    text-decoration: none;
+    color: #2176FF;
+
+}
+a:hover {
+    color: black;
+}
+
+.un {
+
+    background: #FEFCF3;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(100 100 100 / 50%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.deux {
+
+    background: #FEFCF3;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(100 100 100 / 50%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.trois {
+
+    background: #FEFCF3;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(100 100 100 / 50%);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.quatre {
+
+    background: #FEFCF3;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(100 100 100 / 50%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+.cinq {
+
+    background: #FEFCF3;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(100 100 100 / 50%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.global {
+
+    width: 800px;
+    margin: 40px auto;
+
+}
+
+
+@media (max-width: 760px) {
+      .global{
+         width: 600px;
+          }
+}
+
+@media (max-width: 500px) {
+      .global{
+         width: 400px;
+          }
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.liste-horizontale {
+
+    list-style: none;
+    padding-left: 0px;
+    padding: 15px;
+    display: inline;
+    font-size: 34px;
+
+}
